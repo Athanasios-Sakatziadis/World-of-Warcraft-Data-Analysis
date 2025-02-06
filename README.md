@@ -14,25 +14,25 @@ To make this project as immersive and authentic as possible, I structured it lik
 The dataset consists of player records, including race, class, level, location, and timestamps.
 
 The goal is to identify trends in player behavior by analyzing:
-1 - Most popular leveling zones
-2 - Most common class/race combinations
-3 - Max-level player locations
-4 - Dead zones (least active areas)
+1 - Most popular leveling zones.
+2 - Most common class/race combinations.
+3 - Max-level player locations.
+4 - Dead zones (least active areas).
 5 - Faction-based trends (Horde focus in this dataset)
 
 This project demonstrates SQL techniques, including:
-✔ JOINs (INNER, LEFT, RIGHT, FULL)
-✔ Aggregations (COUNT, AVG, SUM)
-✔ Filtering with WHERE, HAVING, and ORDER BY
-✔ Data cleaning & interpretation
+✔ JOINs (INNER, LEFT, RIGHT, FULL).
+✔ Aggregations (COUNT, AVG, SUM).
+✔ Filtering with WHERE, HAVING, and ORDER BY.
+✔ Case-When statements.
 
 # Dataset Description
 We use four tables in the database(wow):
 
-a. wowah_data - Core player data (character ID, level, race, class, zone, guild, timestamp)
-b. zones - Zone details (name, continent, control faction, min/max level)
-c. locations - Game version & location details (map ID, type, name)
-d. location_coords - Coordinates for major game locations
+a. wowah_data - Core player data (character ID, level, race, class, zone, guild, timestamp).
+b. zones - Zone details (name, continent, control faction, min/max level).
+c. locations - Game version & location details (map ID, type, name).
+d. location_coords - Coordinates for major game locations.
 
 # An Overview of some of our Data
 
@@ -55,5 +55,12 @@ SELECT COUNT(*) AS total_players FROM wow_players;
 
 We find the total players #412946
 
+# Question 1.	How many players are at each level? / What is the most common level?
 
+![1-Players Distribution](https://github.com/user-attachments/assets/f86bbf00-4a0f-4c68-a527-685d1191fad7)
+
+Key insights: 
+The majority of players fall within 61-70 level range, making it the most populated category.
+On the other hand, players that fall within 1-20 is the least poplated category.
+>By using case when statement we are trying to form our data result to be less overwhelming.
 
