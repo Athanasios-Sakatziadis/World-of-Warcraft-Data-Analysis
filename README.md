@@ -7,6 +7,7 @@ What is World of Warcraft? WoW is the top 1 online MMORPG game for the last 21 y
 
 This project is based on the "WoW Avatar History" dataset from Kaggle.
 To make this project as immersive and authentic as possible, I structured it like a real Blizzard support ticket, similar to the ones I’ve received over the years.
+Banner Logo is a fan made creation since there are copyrights.
 
 ![Hazagoza's Re(quest)](https://github.com/user-attachments/assets/6782d092-9325-4895-8163-007a96f055d5)
 
@@ -39,7 +40,7 @@ d. location_coords - Coordinates for major game locations.
 ![Data overview](https://github.com/user-attachments/assets/4746a0c2-5e9e-4566-a15e-af2f20cf9822)
 
 
-Table wowah_data converted to wow_players to be more relevant to the data we have, and "char" column to "chara" (since char is used by SQL as a specific key).
+>Table wowah_data converted to wow_players to be more relevant to the data we have, and "char" column to "chara" (since char is used by SQL as a specific key).
 
 RENAME TABLE wowah_data TO wow_players;
 
@@ -49,7 +50,7 @@ ALTER TABLE wow_players
 RENAME COLUMN `char` TO chara;
 
 
-"Chara" Column is the one that includes every unique player to our Data set and by using ->
+>"Chara" Column is the one that includes every unique player to our Data set and by using ->
 
 SELECT COUNT(*) AS total_players FROM wow_players;
 
@@ -62,5 +63,6 @@ We find the total players #412946
 Key insights: 
 The majority of players fall within 61-70 level range, making it the most populated category.
 On the other hand, players that fall within 1-20 is the least poplated category.
+A possible explanation for our results might be that many players enjoy leveling until the Max level.
 >By using case when statement we are trying to form our data result to be less overwhelming.
 
