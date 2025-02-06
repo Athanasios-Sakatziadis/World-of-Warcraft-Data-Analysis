@@ -39,9 +39,17 @@ d. location_coords - Coordinates for major game locations
 ![Data overview](https://github.com/user-attachments/assets/4746a0c2-5e9e-4566-a15e-af2f20cf9822)
 
 
-Table wowah_data converted to wow_players to be more relevant to the data we have.
+Table wowah_data converted to wow_players to be more relevant to the data we have, and char column to chara (since char is used by SQL as a specific key).
 
 RENAME TABLE wowah_data TO wow_players;
+
+--
+ALTER TABLE wow_players 
+RENAME COLUMN `char` TO chara;
+--
+"Chara" Column is the one that includes every unique player to our Data set and by using ->
+
+SELECT COUNT(*) AS total_players FROM wow_players; #412946 total players
 
 
 
