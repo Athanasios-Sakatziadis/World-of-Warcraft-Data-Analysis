@@ -43,10 +43,9 @@ Table wowah_data converted to wow_players to be more relevant to the data we hav
 
 RENAME TABLE wowah_data TO wow_players;
 
---
 ALTER TABLE wow_players 
 RENAME COLUMN `char` TO chara;
---
+
 "Chara" Column is the one that includes every unique player to our Data set and by using ->
 
 SELECT COUNT(*) AS total_players FROM wow_players; #412946 total players
