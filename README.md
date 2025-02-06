@@ -53,6 +53,10 @@ FROM wow_players;
 
 >We find the total unique players #5418
 
+SELECT COUNT(*) FROM wow_players AS even_dublicates;
+
+>Since someone might have multiple characters in the game, the total number of ALL players are #412946
+
 # Question 1.	How many players are at each level? / What is the most common level?
 
 ![1-Players Distribution](https://github.com/user-attachments/assets/f86bbf00-4a0f-4c68-a527-685d1191fad7)
