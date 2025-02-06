@@ -48,9 +48,10 @@ RENAME COLUMN `char` TO chara;
 
 >"Chara" Column is the one that includes every unique player to our Data set and by using ->
 
-SELECT COUNT(*) AS total_players FROM wow_players;
+SELECT COUNT(DISTINCT chara) AS unique_players
+FROM wow_players;
 
->We find the total players #412946
+>We find the total unique players #5418
 
 # Question 1.	How many players are at each level? / What is the most common level?
 
