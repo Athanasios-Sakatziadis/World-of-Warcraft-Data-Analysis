@@ -39,28 +39,25 @@ d. location_coords - Coordinates for major game locations.
 
 ![Data overview](https://github.com/user-attachments/assets/4746a0c2-5e9e-4566-a15e-af2f20cf9822)
 
+RENAME TABLE wowah_data TO wow_players;
 
 >Table wowah_data converted to wow_players to be more relevant to the data we have, and "char" column to "chara" (since char is used by SQL as a specific key).
 
-RENAME TABLE wowah_data TO wow_players;
-
---
-
 ALTER TABLE wow_players 
 RENAME COLUMN `char` TO chara;
-
 
 >"Chara" Column is the one that includes every unique player to our Data set and by using ->
 
 SELECT COUNT(*) AS total_players FROM wow_players;
 
-We find the total players #412946
+>We find the total players #412946
 
 # Question 1.	How many players are at each level? / What is the most common level?
 
 ![1-Players Distribution](https://github.com/user-attachments/assets/f86bbf00-4a0f-4c68-a527-685d1191fad7)
 
 Key insights: 
+-
 The majority of players fall within 61-70 level range, making it the most populated category.
 On the other hand, players that fall within 1-20 is the least poplated category.
 A possible explanation for our results might be that many players enjoy leveling until the Max level.
