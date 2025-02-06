@@ -26,15 +26,8 @@ This project demonstrates SQL techniques, including:
 ✔ Filtering with WHERE, HAVING, and ORDER BY
 ✔ Data cleaning & interpretation
 
-# Key Insights
-🔹 Most Active Zones: [Top Zone Name] has the highest player count.
-🔹 Most Common Horde Class/Race: [Race] [Class] is the most popular combination.
-🔹 Max-Level Players' Favorite Zone: [Zone Name] is where most max-level players spend time.
-🔹 Least Active Zones: [Zone Name] is the least visited area in the dataset.
-🔹 PvP Zones: High-level players often gather in [PvP Zone Name] for combat.
-
 # Dataset Description
-We use four tables in the database:
+We use four tables in the database(wow):
 
 a. wowah_data - Core player data (character ID, level, race, class, zone, guild, timestamp)
 b. zones - Zone details (name, continent, control faction, min/max level)
