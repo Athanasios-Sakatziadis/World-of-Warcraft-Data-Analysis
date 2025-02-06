@@ -6,7 +6,8 @@ Since I’m a huge fan of Blizzard Entertainment, I wanted to bring my passion f
 This project is based on the "WoW Avatar History" dataset from Kaggle (2008)—the most recent player data available.
 To make this project as immersive and authentic as possible, I structured it like a real Blizzard support ticket, similar to the ones I’ve received over the years.
 
-![Hazagoza's Re(quest)](https://github.com/user-attachments/assets/d66dabdb-31d9-4cf6-83ef-cf8d960098bd)
+![Hazagoza's Re(quest)](https://github.com/user-attachments/assets/6782d092-9325-4895-8163-007a96f055d5)
+
 
 
 
