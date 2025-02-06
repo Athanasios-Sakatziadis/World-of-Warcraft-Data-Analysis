@@ -43,6 +43,7 @@ Table wowah_data converted to wow_players to be more relevant to the data we hav
 
 RENAME TABLE wowah_data TO wow_players;
 
+--
 
 ALTER TABLE wow_players 
 RENAME COLUMN `char` TO chara;
