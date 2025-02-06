@@ -9,6 +9,7 @@ This project is based on the "WoW Avatar History" dataset from Kaggle.
 To make this project as immersive and authentic as possible, I structured it like a real Blizzard support ticket, similar to the ones I’ve received over the years.
 Banner Logo is a fan made creation since there are copyrights.
 
+
 ![Hazagoza's Re(quest)](https://github.com/user-attachments/assets/6782d092-9325-4895-8163-007a96f055d5)
 
 # Project Overview
