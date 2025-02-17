@@ -15,17 +15,17 @@ Banner Logo is a fan made creation since there are copyrights.
 The dataset consists of player records, including race, class, level, location, and timestamps.
 
 The goal is to identify trends in player behavior by analyzing:
-1 - Most popular leveling zones.
-2 - Most common class/race combinations.
+1 - how many players are at each level / What is the most common level.
+2 - most popular/visited leveling zones.
 3 - Max-level player locations.
-4 - Dead zones (least active areas).
-5 - Faction-based trends (Horde focus in this dataset)
+4 - faction & class breakdown.
+5 - The dead zones.
 
 This project demonstrates SQL techniques, including:
-✔ JOINs (INNER, LEFT, RIGHT, FULL).
+✔ JOINs (INNER, LEFT).
 ✔ Aggregations (COUNT, AVG, SUM).
-✔ Filtering with WHERE, HAVING, and ORDER BY.
-✔ Case-When statements.
+✔ Filtering with WHERE, and ORDER BY, GROUP BY.
+✔ Case-When statement.
 
 # Dataset Description
 We use four tables in the database(wow):
@@ -75,4 +75,12 @@ A possible explanation for our results might be that many players enjoy leveling
 Key insights:
 -
 As we can see in the screenshot above, we notice that Shattrath City is the most visited area. Shattrath City is one of the capital cities so as Orgrimmar. Arathi Basin is a PvP area which people's characters fight against each other. By that saying, our results lead to the fourth option which is Terokkar Forest.
-Those 2 cities are the most common visited since either people "park" their character until the next login or they just want to meet with their friends. Arathi Basin its a "mode" that you can simply join so you can fight. Terrokar Forest is the actual and most common area for leveling, plenty of activities(Dungeons, Questing, farming materials)
+Those 2 cities are the most common visited since either people "park" their character until the next login or they just want to meet with their friends. Arathi Basin its a "mode" that you can simply join so you can fight. Terrokar Forest is the actual and most common area for leveling, plenty of activities(Dungeons, Questing, farming materials). Also the avarage level of players in the most common area is 69.4.
+
+# Question 3. Where do max-level players spend their time?
+
+![max level players-spending their time](https://github.com/user-attachments/assets/b00134b8-7873-473b-b9ef-b5a66c8b63ab)
+
+Key insights:
+-
+Due to our results, people prefering to spend the most of their time in the capital city(manipulate auction house prices, selling and buying, chatting) instead joining in the PvP area (Alterac Valley).
