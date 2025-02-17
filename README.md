@@ -8,7 +8,7 @@ What is World of Warcraft? WoW is the top 1 online MMORPG game for the last 21 y
 This project is based on the "WoW Avatar History" dataset from Kaggle.
 To make this project as immersive and authentic as possible, I structured it like a real Blizzard support ticket, similar to the ones I’ve received over the years.
 Banner Logo is a fan made creation since there are copyrights.
-
+Those Data have been collected during the Burning Crusade expansion(2008) and are the most recent data.
 
 ![Hazagoza's Re(quest)](https://github.com/user-attachments/assets/6782d092-9325-4895-8163-007a96f055d5)
 
@@ -69,3 +69,11 @@ On the other hand, players that fall within 1-20 is the least poplated category.
 A possible explanation for our results might be that many players enjoy leveling until the Max level.
 >By using case when statement we are trying to form our data result to be less overwhelming.
 
+# Question 2. What is the most popular/visited leveling zones?
+
+![Most popular leveling zones](https://github.com/user-attachments/assets/d8469b51-9743-4867-9606-7d0abdd02bae)
+
+Key insights:
+-
+As we can see in the screenshot above, we notice that Shattrath City is the most visited area. Shattrath City is one of the capital cities so as Orgrimmar. Arathi Basin is a PvP area which people's characters fight against each other. By that saying, our results lead to the fourth option which is Terokkar Forest.
+Those 2 cities are the most common visited since either people "park" their character until the next login or they just want to meet with their friends. Arathi Basin its a "mode" that you can simply join so you can fight. Terrokar Forest is the actual and most common area for leveling, plenty of activities( Dungeons, Questing, farming materials)
