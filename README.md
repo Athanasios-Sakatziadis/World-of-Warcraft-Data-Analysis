@@ -1,4 +1,4 @@
-# World-of-Warcraft-Data-Analysis Using SQL (Coming soon)
+# World-of-Warcraft-Data-Analysis Using SQL
 ![Στιγμιότυπο οθόνης 2025-02-06 004828](https://github.com/user-attachments/assets/43b6c76e-01f1-4503-86b3-d17b815e2efa)
 
 Since I’m a huge fan of Blizzard Entertainment, I wanted to bring my passion for World of Warcraft into data analysis by working with actual WoW data.
