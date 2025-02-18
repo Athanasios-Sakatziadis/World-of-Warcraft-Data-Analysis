@@ -9,7 +9,8 @@ This project is based on the "WoW Avatar History" dataset from Kaggle.
 To make this project as immersive and authentic as possible, I structured it like a real Blizzard support ticket, similar to the ones I’ve received over the years.
 Banner Logo is a fan made creation since there are copyrights.
 
-![Hazagoza's Re(quest)](https://github.com/user-attachments/assets/6782d092-9325-4895-8163-007a96f055d5)
+![Hazagoza's Re(quest)](https://github.com/user-attachments/assets/bdd72537-b5ee-4787-be64-94cecfe7e13d)
+
 
 # Project Overview
 The dataset consists of player records, including race, class, level, location, and timestamps.
@@ -91,4 +92,14 @@ Due to our results, people prefering to spend the most of their time in the capi
 
 Key insights:
 -
-To begin with, our Data has been elaborate based on one side of players, from the horde's. The majority of players are creating the combination Blood elf Paladin because back then it was the most popular race/class combination. Instead of Orc Warlock which might be less enjoyable and time consuming.
+To begin with, our Data has been elaborate based on one side of players, from the horde's. The majority of players are creating the combination Blood elf Paladin because back then it was the most popular race/class combination. Instead of Orc Warlock which might be less enjoyable, time consuming and demanding.
+
+# Question 5. PvP / PVE or something else?
+
+![pvp - pve or something else](https://github.com/user-attachments/assets/3965ba98-4ae9-4606-b1c1-4b408153eb06)
+
+Key insights:
+-
+There are many way to enjoy the game. Due to our results it seems that people prefer to play the game casually instead of doing PvP or PvE.
+
+
