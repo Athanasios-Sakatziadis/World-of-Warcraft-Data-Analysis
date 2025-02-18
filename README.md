@@ -84,3 +84,11 @@ Those 2 cities are the most common visited since either people "park" their char
 Key insights:
 -
 Due to our results, people prefering to spend the most of their time in the capital city(manipulate auction house prices, selling and buying, chatting) instead joining in the PvP area (Alterac Valley).
+
+# Question 4. How many hordes are there? / what are the most popular class/race combination?
+
+![Faction and class breakdown](https://github.com/user-attachments/assets/baebe4d3-5d99-43a0-bd0d-161574abfa6d)
+
+Key insights:
+-
+To begin with, our Data has been elaborate based on one side of players, from the horde's. The majority of players are creating the combination Blood elf Paladin because back then it was the most popular race/class combination. Instead of Orc Warlock which might be less enjoyable and time consuming.
