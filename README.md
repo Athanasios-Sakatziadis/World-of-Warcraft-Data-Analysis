@@ -20,7 +20,7 @@ The goal is to identify trends in player behavior by analyzing:
 2 - most popular/visited leveling zones.
 3 - Max-level player locations.
 4 - faction & class breakdown.
-5 - The dead zones.
+5 - PvP - PvE or something else?
 
 This project demonstrates SQL techniques, including:
 ✔ JOINs (INNER, LEFT).
