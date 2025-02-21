@@ -96,7 +96,8 @@ To begin with, our Data has been elaborate based on one side of players, from th
 
 # Question 5. PvP / PVE or something else?
 
-![pvp - pve or something else](https://github.com/user-attachments/assets/3965ba98-4ae9-4606-b1c1-4b408153eb06)
+![pvp - pve or something else](https://github.com/user-attachments/assets/3b69fd9c-5ceb-477e-8f45-11b39109b3dc)
+
 
 Key insights:
 -
@@ -106,6 +107,8 @@ There are many way to enjoy the game. Due to our results it seems that people pr
 ![Most popular leveling zones Visualization](https://github.com/user-attachments/assets/bbfb792f-f711-4311-8f61-e065c170a4f4)
 
 ![Max level Players spending their time visualization](https://github.com/user-attachments/assets/515aaa23-edca-46bf-bd0e-2df52ec876b8)
+
+![Character class breakdown visualization](https://github.com/user-attachments/assets/1f1036a2-5dcd-475c-bba2-f27a1e7d892a)
 
 
 
