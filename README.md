@@ -71,8 +71,7 @@ A possible explanation for our results might be that many players enjoy leveling
 
 # Question 2. What is the most popular/visited leveling zones?
 
-![most popular-visited leveling zones](https://github.com/user-attachments/assets/6f7267c9-1be2-48ad-8373-f3d363ba4725)
-
+![most popular-visited leveling zones](https://github.com/user-attachments/assets/8dff320a-6f2d-4b92-be56-76eeffea362b)
 
 Key insights:
 -
