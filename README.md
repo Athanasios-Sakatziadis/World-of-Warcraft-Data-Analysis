@@ -93,7 +93,8 @@ Due to our results, people prefering to spend the most of their time in the capi
 
 # Question 4. How many hordes are there? / what are the most popular class/race combination?
 
-![Faction and class breakdown](https://github.com/user-attachments/assets/baebe4d3-5d99-43a0-bd0d-161574abfa6d)
+![class-race combination](https://github.com/user-attachments/assets/1215572f-342d-4f00-a023-ab3c2592cb34)
+
 
 Key insights:
 -
@@ -117,5 +118,6 @@ There are many way to enjoy the game. Due to our results it seems that people pr
 
 
 
+![class-race combination visualization](https://github.com/user-attachments/assets/5badccb3-3b79-437a-9701-de2d0d416d8f)
 
 
