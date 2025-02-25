@@ -71,7 +71,8 @@ A possible explanation for our results might be that many players enjoy leveling
 
 # Question 2. What is the most popular/visited leveling zones?
 
-![Most popular leveling zones](https://github.com/user-attachments/assets/d8469b51-9743-4867-9606-7d0abdd02bae)
+![most popular-visited leveling zones](https://github.com/user-attachments/assets/6f7267c9-1be2-48ad-8373-f3d363ba4725)
+
 
 Key insights:
 -
@@ -103,6 +104,9 @@ Key insights:
 -
 There are many way to enjoy the game. Due to our results it seems that people prefer to play the game casually instead of doing PvP or PvE.
 
+
+2.
+![most popular-visited leveling zones visualization](https://github.com/user-attachments/assets/fcc7b29c-46b2-4086-8796-e92bce28d731)
 
 
 
