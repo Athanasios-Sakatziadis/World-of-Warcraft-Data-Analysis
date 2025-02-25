@@ -60,7 +60,8 @@ SELECT COUNT(*) FROM wow_players AS even_dublicates;
 
 # Question 1.	How many players are at each level? / What is the most common level?
 
-![1-Players Distribution](https://github.com/user-attachments/assets/f86bbf00-4a0f-4c68-a527-685d1191fad7)
+![How many players are at each level- What is the most common level](https://github.com/user-attachments/assets/5ea9f038-58e1-4ea8-87fc-7c5fc8f51cdf)
+
 
 Key insights: 
 -
