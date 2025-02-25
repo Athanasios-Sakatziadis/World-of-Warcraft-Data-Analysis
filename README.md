@@ -108,7 +108,8 @@ Key insights:
 -
 There are many way to enjoy the game. Due to our results it seems that people prefer to play the game casually instead of doing PvP or PvE.
 
-![How many players are at each level- What is the most common level visualization](https://github.com/user-attachments/assets/e37aab5f-b57f-444a-a8a7-83016f50d859)
+
+![How many players are at each level- What is the most common level visualization](https://github.com/user-attachments/assets/e260f68c-0d9f-46e3-8f58-b9e98edb093d)
 
 
 ![most popular-visited leveling zones visualization](https://github.com/user-attachments/assets/fcc7b29c-46b2-4086-8796-e92bce28d731)
