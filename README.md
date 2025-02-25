@@ -80,8 +80,8 @@ A possible explanation for our results might be that many players enjoy leveling
 
 Key insights:
 -
-As we can see in the screenshot above, we notice that Shattrath City is the most visited area. Shattrath City is one of the capital cities so as Orgrimmar. Arathi Basin is a PvP area which people's characters fight against each other. By that saying, our results lead to the fourth option which is Terokkar Forest.
-Those 2 cities are the most common visited since either people "park" their character until the next login or they just want to meet with their friends. Arathi Basin its a "mode" that you can simply join so you can fight. Terrokar Forest is the actual and most common area for leveling, plenty of activities(Dungeons, Questing, farming materials). Also the avarage level of players in the most common area is 69.4.
+As we can see in the screenshot above, we notice that Orgrimmar is the most visited area(unique IDs). Orgrimmar is one of the capital cities so as Shattrath City. By that saying, our results lead to the Third option which is Terokkar Forest.
+Those 2 cities are the most common visited since either people "park" their character until the next login or they just want to meet with their friends. Terrokar Forest is the actual and most common area for leveling, plenty of activities(Dungeons, Questing, farming materials). Also the avarage level of players in the most common area is 60.56
 
 # Question 3. Where do max-level players spend their time?
 
