@@ -1,4 +1,4 @@
-# World-of-Warcraft-Data-Analysis Using SQL(Coming Soon)
+# World-of-Warcraft-Data-Analysis Using SQL
 ![Στιγμιότυπο οθόνης 2025-02-06 004828](https://github.com/user-attachments/assets/43b6c76e-01f1-4503-86b3-d17b815e2efa)
 
 Since I’m a huge fan of Blizzard Entertainment, I wanted to bring my passion for World of Warcraft into data analysis by working with actual WoW data.
@@ -18,45 +18,45 @@ The dataset consists of player records, including race, class, level, location, 
 The goal is to identify trends in player behavior by analyzing:
 
 
-1 - how many players are at each level / What is the most common level.
+1 - __How many players are at each level / What is the most common level.__
 
 
-2 - most popular/visited leveling zones.
+2 - __Most popular/visited leveling zones.__
 
 
-3 - Max-level player locations.
+3 - __Max-level player locations.__
 
 
-4 - faction & class breakdown.
+4 - __Faction & class breakdown.__
 
 
-5 - PvP - PvE or something else?
+5 - __PvP - PvE or something else?__
 
 
 
 This project demonstrates SQL techniques, including:
 
 
-✔ JOINs (LEFT).
+✔ __JOINs (LEFT).__
 
 
-✔ Aggregations (COUNT, AVG, SUM).
+✔ __Aggregations (COUNT, AVG, SUM, MAX).__
 
 
-✔ Filtering with WHERE, and ORDER BY, GROUP BY.
+✔ __Filtering with WHERE, and ORDER BY, GROUP BY.__
 
 
-✔ Case-When statement.
+✔ __Case-When statement.__
 
 # Dataset Description
 We use four tables in the database(wow):
 
-a. wowah_data - Core player data (character ID, level, race, class, zone, guild, timestamp).
-b. zones - Zone details (name, continent, control faction, min/max level).
-c. locations - Game version & location details (map ID, type, name).
-d. location_coords - Coordinates for major game locations.
+a. __wowah_data__ - Core player data (character ID, level, race, class, zone, guild, timestamp, etc).
+b. __zones__ - Zone details (name, continent, control faction, min/max level).
+c. __locations__ - Game version & location details (map ID, type, name).
+d. __location_coords__ - Coordinates for major game locations.
 
-# An Overview of some of our Data
+# Data Overview
 
 ![Data overview](https://github.com/user-attachments/assets/4746a0c2-5e9e-4566-a15e-af2f20cf9822)
 
@@ -119,7 +119,7 @@ Due to our results, people prefering to spend the most of their time in the capi
 
 Key insights:
 -
-To begin with, our Data has been elaborate based on one side of players, from the horde's. The majority of players are creating the combination Blood elf Paladin because back then it was the most popular race/class combination. Instead of Orc Warlock which might be less enjoyable, time consuming and demanding.
+To begin with, our Data has been elaborate based on one side of players, from the horde's. The majority of players are creating the combination Blood elf Paladin because back then it was the most popular race/class combination. Instead of Orc Warlock which might be less enjoyable, time consuming and demanding. The total number of ALL players are #412.946 as we mentioned above.
 
 # Question 5. PvP / PVE or something else?
 
