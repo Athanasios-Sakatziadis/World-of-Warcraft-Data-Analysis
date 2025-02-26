@@ -23,7 +23,7 @@ The goal is to identify trends in player behavior by analyzing:
 5 - PvP - PvE or something else?
 
 This project demonstrates SQL techniques, including:
-✔ JOINs (INNER, LEFT).
+✔ JOINs (LEFT).
 ✔ Aggregations (COUNT, AVG, SUM).
 ✔ Filtering with WHERE, and ORDER BY, GROUP BY.
 ✔ Case-When statement.
@@ -40,25 +40,25 @@ d. location_coords - Coordinates for major game locations.
 
 ![Data overview](https://github.com/user-attachments/assets/4746a0c2-5e9e-4566-a15e-af2f20cf9822)
 
-RENAME TABLE wowah_data TO wow_players_cleaned;
+__RENAME TABLE__ wowah_data __TO__ wow_players_cleaned;
 
-RENAME TABLE zones TO wow_zones_cleaned;
+__RENAME TABLE__ zones __TO__ wow_zones_cleaned;
 
 >Table wowah_data converted to wow_players_cleaned to be more relevant to the data we have, and "char" column to "chara" (since char is used by SQL as a specific key).
 
 *The Data has been cleaned*
 
-ALTER TABLE wow_players 
-RENAME COLUMN `char` TO chara;
+__ALTER TABLE__ wow_players 
+__RENAME COLUMN __`char` __TO__ chara;
 
 >"Chara" Column is the one that includes every unique player to our Data set and by using ->
 
-SELECT COUNT(DISTINCT chara) AS unique_players
-FROM wow_players_cleaned;
+__SELECT COUNT(DISTINCT__ chara) __AS__ unique_players
+__FROM__ wow_players_cleaned;
 
 >We find the total unique players #5418
 
-SELECT COUNT(*) FROM wow_players AS even_dublicates;
+__SELECT COUNT__(*) FROM wow_players AS even_dublicates;
 
 >Since someone might have multiple characters in the game, the total number of ALL players are #412946
 
