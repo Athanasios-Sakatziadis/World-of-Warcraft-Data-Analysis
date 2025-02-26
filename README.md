@@ -3,7 +3,7 @@
 
 Since I’m a huge fan of __Blizzard Entertainment__, I wanted to bring my passion for __World of Warcraft__ into data analysis by working with actual WoW data.
 
-What is World of Warcraft? WoW is the top 1 online MMORPG game for the last 21 years. 
+What is __World of Warcraft__? WoW is the __top 1 online MMORPG__ game for the last 21 years. 
 
 This project is based on the __"WoW Avatar History"__ dataset from Kaggle.
 To make this project as immersive and authentic as possible, I structured it like a real Blizzard support ticket, similar to the ones I’ve received over the years.
