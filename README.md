@@ -5,7 +5,7 @@ Since I’m a huge fan of __Blizzard Entertainment__, I wanted to bring my passi
 
 What is __World of Warcraft__? WoW is the __top 1 online MMORPG__ game for the last 21 years. 
 
-This project is based on the __"WoW Avatar History"__ dataset from Kaggle.
+This project is based on the __"WoW Avatar History"__ dataset from Kaggle. [World of Warcraft Dataset](https://www.kaggle.com/datasets/mylesoneill/warcraft-avatar-history)
 To make this project as immersive and authentic as possible, I structured it like a real Blizzard support ticket, similar to the ones I’ve received over the years.
 Banner Logo is a fan made creation since there are copyrights.
 
