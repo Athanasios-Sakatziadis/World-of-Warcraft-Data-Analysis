@@ -18,19 +18,19 @@ The dataset consists of player records, including race, class, level, location, 
 The goal is to identify trends in player behavior by analyzing:
 
 
-1 - __How many players are at each level / What is the most common level.__
+1. - __How many players are at each level / What is the most common level.__
 
 
-2 - __Most popular/visited leveling zones.__
+2. - __Most popular/visited leveling zones.__
 
 
-3 - __Max-level player locations.__
+3. - __Max-level player locations.__
 
 
-4 - __Faction & class breakdown.__
+4. - __Faction & class breakdown.__
 
 
-5 - __PvP - PvE or something else?__
+5. - __PvP - PvE or something else?__
 
 
 
