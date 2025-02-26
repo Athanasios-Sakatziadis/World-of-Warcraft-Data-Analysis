@@ -17,15 +17,31 @@ The dataset consists of player records, including race, class, level, location, 
 
 The goal is to identify trends in player behavior by analyzing:
 1 - how many players are at each level / What is the most common level.
+
+
 2 - most popular/visited leveling zones.
+
+
 3 - Max-level player locations.
+
+
 4 - faction & class breakdown.
+
+
 5 - PvP - PvE or something else?
+
+
 
 This project demonstrates SQL techniques, including:
 ✔ JOINs (LEFT).
+
+
 ✔ Aggregations (COUNT, AVG, SUM).
+
+
 ✔ Filtering with WHERE, and ORDER BY, GROUP BY.
+
+
 ✔ Case-When statement.
 
 # Dataset Description
@@ -48,7 +64,7 @@ __RENAME TABLE__ zones __TO__ wow_zones_cleaned;
 
 *The Data has been cleaned*
 
-__ALTER TABLE__ wow_players 
+__ALTER TABLE__ wow_players_cleaned 
 __RENAME COLUMN__ `char` __TO__ chara;
 
 >"Chara" Column is the one that includes every unique player to our Data set and by using ->
