@@ -78,7 +78,7 @@ __RENAME COLUMN__ `char` __TO__ chara;
 __SELECT COUNT(DISTINCT__ chara) __AS__ unique_players
 __FROM__ wow_players_cleaned;
 
->We find the total unique players #5418
+>We find the total unique players #5.418
 
 __SELECT COUNT__(*) __FROM__ wow_players __AS__ even_dublicates;
 
