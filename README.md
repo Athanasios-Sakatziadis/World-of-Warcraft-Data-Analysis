@@ -102,7 +102,8 @@ To begin with, our Data has been elaborate based on one side of players, from th
 
 # Question 5. PvP / PVE or something else?
 
-![pvp - pve or something else](https://github.com/user-attachments/assets/3b69fd9c-5ceb-477e-8f45-11b39109b3dc)
+![pvp - pve or something else](https://github.com/user-attachments/assets/842ba2a4-99ba-4d24-961d-0a09a9e3312f)
+
 
 
 Key insights:
@@ -121,3 +122,4 @@ There are many way to enjoy the game. Due to our results it seems that people pr
 ![class-race combination visualization](https://github.com/user-attachments/assets/5badccb3-3b79-437a-9701-de2d0d416d8f)
 
 
+![pvp - pve or something else visualization](https://github.com/user-attachments/assets/58ab1c22-e864-4031-919a-439627197a35)
