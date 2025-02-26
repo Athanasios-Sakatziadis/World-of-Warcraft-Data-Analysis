@@ -16,6 +16,8 @@ Banner Logo is a fan made creation since there are copyrights.
 The dataset consists of player records, including race, class, level, location, and timestamps.
 
 The goal is to identify trends in player behavior by analyzing:
+
+
 1 - how many players are at each level / What is the most common level.
 
 
@@ -33,6 +35,8 @@ The goal is to identify trends in player behavior by analyzing:
 
 
 This project demonstrates SQL techniques, including:
+
+
 ✔ JOINs (LEFT).
 
 
