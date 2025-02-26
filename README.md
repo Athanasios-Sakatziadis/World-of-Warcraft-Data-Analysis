@@ -1,11 +1,11 @@
 # World-of-Warcraft-Data-Analysis Using SQL
 ![Στιγμιότυπο οθόνης 2025-02-06 004828](https://github.com/user-attachments/assets/43b6c76e-01f1-4503-86b3-d17b815e2efa)
 
-Since I’m a huge fan of Blizzard Entertainment, I wanted to bring my passion for World of Warcraft into data analysis by working with actual WoW data.
+Since I’m a huge fan of __Blizzard Entertainment__, I wanted to bring my passion for __World of Warcraft__ into data analysis by working with actual WoW data.
 
 What is World of Warcraft? WoW is the top 1 online MMORPG game for the last 21 years. 
 
-This project is based on the "WoW Avatar History" dataset from Kaggle.
+This project is based on the __"WoW Avatar History"__ dataset from Kaggle.
 To make this project as immersive and authentic as possible, I structured it like a real Blizzard support ticket, similar to the ones I’ve received over the years.
 Banner Logo is a fan made creation since there are copyrights.
 
@@ -56,6 +56,8 @@ b. __zones__ - Zone details (name, continent, control faction, min/max level).
 c. __locations__ - Game version & location details (map ID, type, name).
 d. __location_coords__ - Coordinates for major game locations.
 
+>We will use some of them for our data analysis.
+
 # Data Overview
 
 ![Data overview](https://github.com/user-attachments/assets/4746a0c2-5e9e-4566-a15e-af2f20cf9822)
@@ -71,7 +73,7 @@ __RENAME TABLE__ zones __TO__ wow_zones_cleaned;
 __ALTER TABLE__ wow_players_cleaned 
 __RENAME COLUMN__ `char` __TO__ chara;
 
->"Chara" Column is the one that includes every unique player to our Data set and by using ->
+>"Chara" Column is the one that includes every unique player to our Data set and by using :
 
 __SELECT COUNT(DISTINCT__ chara) __AS__ unique_players
 __FROM__ wow_players_cleaned;
@@ -110,7 +112,7 @@ Those 2 cities are the most common visited since either people "park" their char
 
 Key insights:
 -
-Due to our results, people prefering to spend the most of their time in the capital city(manipulate auction house prices, selling and buying, chatting) instead joining in the PvP area (Alterac Valley).
+Due to our results, people prefering to spend the most of their time in the capital city(manipulate auction house prices, selling and buying, chatting) instead raiding(Tempest Keep) or PvP (Warsong Gulch).
 
 # Question 4. How many hordes are there? / what are the most popular class/race combination?
 
@@ -126,10 +128,10 @@ To begin with, our Data has been elaborate based on one side of players, from th
 ![pvp - pve or something else](https://github.com/user-attachments/assets/842ba2a4-99ba-4d24-961d-0a09a9e3312f)
 
 
-
 Key insights:
 -
 There are many way to enjoy the game. Due to our results it seems that people prefer to play the game casually instead of doing PvP or PvE.
+
 
 
 ![How many players are at each level- What is the most common level visualization](https://github.com/user-attachments/assets/e260f68c-0d9f-46e3-8f58-b9e98edb093d)
