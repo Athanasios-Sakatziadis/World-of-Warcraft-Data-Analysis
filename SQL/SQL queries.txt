@@ -1,0 +1,55 @@
+1.
+
+SELECT
+CASE
+WHEN level BETWEEN 1 AND 20 THEN '1-20'
+WHEN level BETWEEN 21 AND 40 THEN '21-40'
+WHEN level BETWEEN 41 AND 60 THEN '41-60'
+WHEN level BETWEEN 61 and 70 THEN '61-70'
+ELSE 'unknown'
+END AS level_range,
+COUNT(*) AS total_level
+FROM wow_players_cleaned
+GROUP BY level_range
+ORDER BY level_range DESC;
+
+2.
+
+SELECT 
+    w.Zone, 
+    COUNT(DISTINCT w.chara) AS TOTAL_VISITS
+FROM wow_players_cleaned w
+INNER JOIN wow_zones_cleaned z 
+    ON w.Zone = z.Zone
+GROUP BY w.Zone
+ORDER BY TOTAL_VISITS DESC;
+
+3.
+
+SELECT Zone, COUNT(chara) AS max_lvl
+ FROM wow_players_cleaned
+ WHERE level = (SELECT MAX(level) FROM wow_players_cleaned)
+ GROUP BY Zone
+ ORDER BY max_lvl DESC;
+
+4. 
+
+SELECT race, charclass, COUNT(*) AS Total_combinations
+FROM wow_players_cleaned
+GROUP BY race, charclass
+ORDER BY total_combinations DESC;
+
+5.
+
+SELECT
+ CASE
+  WHEN Zone IN ('Tempest Keep','Sunwell Plateau','Onyxia''s Lair','Molten Core','Magtheridon''s Lair','Karazhan','Gruul''s Lair','Blackfathom Deeps','Black Temple','Ahn''Qiraj') THEN 'PvE'
+
+  WHEN Zone IN ('Warsong Gulch','The Ring of Valor','Nagrand Arena','Eye of the Storm','Blade''s Edge Arena','Arathi Basin','Alterac Valley') THEN 'PvP'
+  ELSE 'Other'
+  END AS activity_zones,
+   COUNT(*) AS player_count
+   FROM wow_players_cleaned
+  GROUP BY activity_zones
+  ORDER BY player_count DESC;
+ 
