@@ -49,7 +49,7 @@ __RENAME TABLE__ zones __TO__ wow_zones_cleaned;
 *The Data has been cleaned*
 
 __ALTER TABLE__ wow_players 
-__RENAME COLUMN __`char` __TO__ chara;
+__RENAME COLUMN__ `char` __TO__ chara;
 
 >"Chara" Column is the one that includes every unique player to our Data set and by using ->
 
@@ -58,9 +58,9 @@ __FROM__ wow_players_cleaned;
 
 >We find the total unique players #5418
 
-__SELECT COUNT__(*) FROM wow_players AS even_dublicates;
+__SELECT COUNT__(*) __FROM__ wow_players __AS__ even_dublicates;
 
->Since someone might have multiple characters in the game, the total number of ALL players are #412946
+>Since someone might have multiple characters in the game, the total number of ALL players are #412.946
 
 # Question 1.	How many players are at each level? / What is the most common level?
 
