@@ -80,7 +80,7 @@ __FROM__ wow_players_cleaned;
 
 >We find the total unique players #5.418
 
-__SELECT COUNT__(*) __FROM__ wow_players __AS__ even_dublicates;
+__SELECT COUNT__(*) __FROM__ wow_players_cleaned __AS__ even_dublicates;
 
 >Since someone might have multiple characters in the game, the total number of ALL players are #412.946
 
