@@ -105,7 +105,8 @@ Those 2 cities are the most common visited since either people "park" their char
 
 # Question 3. Where do max-level players spend their time?
 
-![max level players-spending their time](https://github.com/user-attachments/assets/b00134b8-7873-473b-b9ef-b5a66c8b63ab)
+![Where do max-level players spend their time](https://github.com/user-attachments/assets/a7a6ff14-edf8-43ab-b74e-797fe7f524d5)
+
 
 Key insights:
 -
@@ -137,6 +138,7 @@ There are many way to enjoy the game. Due to our results it seems that people pr
 ![most popular-visited leveling zones visualization](https://github.com/user-attachments/assets/fcc7b29c-46b2-4086-8796-e92bce28d731)
 
 
+![Where do max-level players spend their time visualization](https://github.com/user-attachments/assets/59408808-9aaa-4182-ac21-b911ae527fd1)
 
 
 ![class-race combination visualization](https://github.com/user-attachments/assets/5badccb3-3b79-437a-9701-de2d0d416d8f)
